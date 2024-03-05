@@ -35,6 +35,7 @@ public class Tarefa02 {
         }
 
         System.out.printf("\nEstado final:\n");
+
         for (char ch : v) {
             System.out.printf("%c ", ch);
         }
