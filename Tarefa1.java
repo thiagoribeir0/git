@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Tarefa01 {
+public class Tarefa1 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
 
@@ -21,7 +21,7 @@ public class Tarefa01 {
 
         System.out.printf("\n");
 
-        Tarefa01 programa = new Tarefa01();
+        Tarefa01 programa = new Tarefa1();
         int resultado = programa.ordem(v);
         System.out.println("Resultado: " + resultado);
     }

@@ -1,0 +1,16 @@
+public void inserir_final () {
+    noh novo = new noh();
+    if (novo == null) {
+        Msg.msg_central ("Memória insuficiente."); //verificação de memória
+    } else {
+        novo.setId(this.D_Id());
+        novo.setNome(this.D_Nome());
+        novo.setSexo(this.D_Sexo());
+        if(this.vazia()){ //verificar se a lista está vazia
+            this.primeiro = this.ultimo = novo; //insere o nó no início e no fim
+        } else {
+            this.ultimo.setProximo(novo); //inseriu o nó no final da lista
+            this.ultimo = novo; //substituiu o elemento final
+        }
+    }
+}
