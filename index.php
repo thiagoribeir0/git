@@ -51,10 +51,7 @@
                 }
                 echo "<div style='background-color:$cor'>3 x $cont = $valor</div>";
                 $cont++;
-            }
-            
-
-            
+            }            
         ?>
 
     </body>
